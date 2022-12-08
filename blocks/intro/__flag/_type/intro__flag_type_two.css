@@ -1,5 +1,6 @@
 .intro__flag_type_two {
   width: 70px;
+  will-change: transform;
   animation: .6s linear 5s forwards initialMoveTwo;
 }
 

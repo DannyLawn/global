@@ -40,6 +40,7 @@
 @import url(../blocks/intro/__main-image/intro__main-image.css);
 @import url(../blocks/intro/__greenCircle/intro__greenCircle.css);
 @import url(../blocks/intro/__borderCircle/intro__borderCircle.css);
+@import url(../blocks/intro/__borderCircle-container/intro__borderCircle-container.css);
 @import url(../blocks/intro/__flag/intro__flag.css);
 @import url(../blocks/intro/__flag/_type/intro__flag_type_zero.css);
 @import url(../blocks/intro/__flag/_type/intro__flag_type_one.css);

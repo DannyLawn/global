@@ -1,5 +1,6 @@
 .intro__flag_type_zero {
   width: 60px;
+  will-change: transform;
   animation: initialMoveZero .6s linear 3s forwards;
 }
 

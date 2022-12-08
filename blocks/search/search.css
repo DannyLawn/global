@@ -13,7 +13,7 @@
 .search::after {
   -webkit-transition-delay: .4s;
   transition-delay: .4s;
-  content: "Количество символов: от 4 до 12(включительно). Запрещеные символы: !@#$%^&*()";
+  content: "Количество символов: от 4 до 12(включительно). Запрещенные символы: !@#$%^&*()";
   position: absolute;
   top: -9999px;
   left: 74%;

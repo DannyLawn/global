@@ -1,5 +1,6 @@
 .intro__flag_type_three {
   width: 80px;
+  will-change: transform;
   animation: .6s linear 6s forwards initialMoveThree;
 }
 

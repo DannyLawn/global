@@ -1,5 +1,6 @@
 .intro__flag_type_four {
   width: 60px;
+  will-change: transform;
   animation: .6s linear 7s forwards initialMoveFour;
 }
 

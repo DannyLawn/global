@@ -1,5 +1,6 @@
 .intro__flag_type_one {
   width: 90px;
+  will-change: transform;
   animation: .6s linear 4s forwards initialMoveOne;
 }
 
