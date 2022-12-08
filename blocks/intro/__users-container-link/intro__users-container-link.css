@@ -1,0 +1,14 @@
+.intro__users-container-link {
+  margin: 0 0 0 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FD905A;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.intro__users-container-link:hover {
+  opacity: .7;
+}
+

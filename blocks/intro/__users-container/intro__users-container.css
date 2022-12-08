@@ -1,0 +1,13 @@
+.intro__users-container {
+  display: flex;
+  align-items: center;
+  margin: 40px 0 44px;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .intro__users-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

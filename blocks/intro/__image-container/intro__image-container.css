@@ -1,0 +1,13 @@
+.intro__image-container {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: -150px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1110px) {
+  .intro__image-container {
+    display: none;
+  }
+}

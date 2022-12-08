@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="Image/x-icon" href="./images/favicon.ico" rel="icon">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Global</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <img class="header__logo" src="./images/Logo.png" alt="Логотип, буква S в окружности.">
+    <nav>
+      <ul class="header__nav header__nav_type_standart">
+        <li class="header__nav-item"><a class="header__link" href="#">Mobile Top Up</a></li>
+        <li class="header__nav-item"><a class="header__link" href="#">About</a></li>
+        <li class="header__nav-item"><a class="header__link" href="#">Rate</a></li>
+        <li class="header__nav-item"><a class="header__link" href="#">Help</a></li>
+      </ul>
+    </nav>
+    <a class="button">Sign Up</a>
+    <div class="popup popup_type_header">
+      <nav>
+        <ul class="header__nav header__nav_type_burger">
+          <li class="header__nav-item"><a class="header__link" href="#">Mobile Top Up</a></li>
+          <li class="header__nav-item"><a class="header__link" href="#">About</a></li>
+          <li class="header__nav-item"><a class="header__link" href="#">Rate</a></li>
+          <li class="header__nav-item"><a class="header__link" href="#">Help</a></li>
+        </ul>
+      </nav>
+    </div>
+    <button type="button" class="burger-button">
+      <span class="burger-button__line-element"></span>
+      <span class="burger-button__line-element"></span>
+    </button>
+  </header>
+
+  <section class="intro">
+    <div class="intro__content-container">
+      <h1 class="intro__title">Now Buy Your <br /> PIN or <span class="intro__title_accent">Top Up</span> <br /> With
+        Bank Transfer</h1>
+      <p class="intro__subtitle">
+        <!-- data from https://baconipsum.com/api/?type=lucky -->
+      </p>
+      <!-- <p class="intro__subtitle">We Make international calling simple, reliable, and cheap based on your unique calling behavior.</p> -->
+      <a class="button button_type_intro">Get Started</a>
+      <form>
+        <div class="search">
+          <input class="search__input" minlength="4" maxlength="12" name="country"
+            placeholder="Where do you want to call?">
+          <button class="search__submit" type="submit">
+            <img class="search__submit-img" src="./images/search.png" alt="Значок лупы.">
+          </button>
+        </div>
+      </form>
+      <div class="intro__users-container">
+        <ul class="intro__users-list">
+          <li class="intro__users-item">
+            <img class="intro__users-img" src="./images/1.png" alt="">
+          </li>
+          <li class="intro__users-item">
+            <img class="intro__users-img" src="./images/2.png" alt="">
+          </li>
+          <li class="intro__users-item">
+            <img class="intro__users-img" src="./images/3.png" alt="">
+          </li>
+          <li class="intro__users-item intro__users-item_type_plus">
+            <img class="intro__users-item-plus-icon" src="./images/plus.png" alt="">
+          </li>
+        </ul>
+        <p class="intro__users-container-description">45k+ Regular User.</p>
+        <a class="intro__users-container-link" href="#">View Price Plan</a>
+      </div>
+    </div>
+    <div class="intro__image-container">
+      <img class="intro__main-image" src="./images/image 33.png" alt="Удивленная женщина копашится в телефоне.">
+      <div class="intro__greenCircle"></div>
+      <div class="intro__borderCircle">
+        <div class="intro__borderCircle-container">
+          <img class="intro__flag intro__flag_type_zero" src="./images/indy.png" alt="Флаг Индии.">
+          <img class="intro__flag intro__flag_type_one" src="./images/british.png" alt="Флаг Британии.">
+          <img class="intro__flag intro__flag_type_two" src="./images/italy.png" alt="Флаг Италии.">
+          <img class="intro__flag intro__flag_type_three" src="./images/indy.png" alt="Флаг Индии.">
+          <img class="intro__flag intro__flag_type_four" src="./images/indy.png" alt="Флаг Индии.">
+          <img class="intro__flag intro__flag_type_five" src="./images/italy.png" alt="Флаг Италии.">
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script type="module" src="./pages/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+.intro__main-image {
+  position: relative;
+  display: block;
+  width: 836px;
+  object-fit: cover;
+  object-position: center;
+  z-index: 4;
+}

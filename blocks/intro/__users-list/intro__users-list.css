@@ -1,0 +1,7 @@
+.intro__users-list {
+  display: flex;
+  min-height: 38px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

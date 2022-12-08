@@ -1,0 +1,19 @@
+.intro__flag_type_one {
+  width: 90px;
+  animation: .6s linear 4s forwards initialMoveOne;
+}
+
+
+@keyframes initialMoveOne {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(-240px, -80px);
+  }
+
+  100% {
+    transform: translate(-240px, -170px);
+  }
+}

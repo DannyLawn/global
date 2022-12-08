@@ -1,0 +1,16 @@
+.search__submit {
+  position: relative;
+  display: block;
+  margin: 4px 6px 4px 0;
+  min-width: 55px;
+  min-height: 55px; 
+  background-color: #48B774;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  transition: all .2s ease-in-out;
+}
+
+.search__submit:hover {
+  opacity: .8;
+}

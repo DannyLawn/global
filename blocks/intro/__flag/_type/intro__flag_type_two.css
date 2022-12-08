@@ -1,0 +1,19 @@
+.intro__flag_type_two {
+  width: 70px;
+  animation: .6s linear 5s forwards initialMoveTwo;
+}
+
+
+@keyframes initialMoveTwo {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(-60px, -230px);
+  }
+
+  100% {
+    transform: translate(-10px, -295px);
+  }
+}

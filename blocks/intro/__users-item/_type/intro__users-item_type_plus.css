@@ -1,0 +1,5 @@
+.intro__users-item_type_plus {
+  position: relative;
+  background: url(../../../../images/4.png) center / contain no-repeat;
+  z-index: 1;
+}

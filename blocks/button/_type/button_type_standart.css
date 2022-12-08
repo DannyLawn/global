@@ -1,0 +1,5 @@
+@media screen and (max-width: 1110px) {
+	.button_type_standart {
+		display: none;
+	}
+}

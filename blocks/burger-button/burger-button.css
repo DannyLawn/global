@@ -1,0 +1,37 @@
+.burger-button {
+	position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 35px;
+  left: 0;
+  right: 0;
+  text-align: center;
+	z-index: 999;
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	cursor: pointer;
+  will-change: transform, opacity;
+  transition: opacity .4s ease-in, transform .5s ease-in;
+}
+
+.burger-button:hover {
+	opacity: .8;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 1110px) {
+	.burger-button {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 575px) {
+  .burger-button {
+    top: 160px;
+  }
+}

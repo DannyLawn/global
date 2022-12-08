@@ -1,0 +1,19 @@
+.intro__flag_type_three {
+  width: 80px;
+  animation: .6s linear 6s forwards initialMoveThree;
+}
+
+
+@keyframes initialMoveThree {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(90px, -120px);
+  }
+
+  100% {
+    transform: translate(170px, -150px);
+  }
+}

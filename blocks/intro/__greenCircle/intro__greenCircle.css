@@ -1,0 +1,11 @@
+.intro__greenCircle {
+  position: absolute;
+  left: 50%;
+  bottom: 204px;
+  transform: translateX(-50%);
+  width: 280px;
+  height: 280px;
+  background: #48B774;
+  border-radius: 50%;
+  z-index: 3;
+}

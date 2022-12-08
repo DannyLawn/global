@@ -1,0 +1,12 @@
+.page {
+  box-sizing: border-box;
+  padding: 0 10.64%;
+  background-color: #ECF7F3;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%; 
+  text-rendering: optimizeLegibility;
+}

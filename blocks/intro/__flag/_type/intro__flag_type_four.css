@@ -1,0 +1,19 @@
+.intro__flag_type_four {
+  width: 60px;
+  animation: .6s linear 7s forwards initialMoveFour;
+}
+
+
+@keyframes initialMoveFour {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(130px, 45px);
+  }
+
+  100% {
+    transform: translate(140px, 65px);
+  }
+}

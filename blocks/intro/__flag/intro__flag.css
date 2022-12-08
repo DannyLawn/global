@@ -1,0 +1,8 @@
+.intro__flag {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: 120px;
+  transform: translateX(-50%);
+}
