@@ -29,7 +29,7 @@
 }
 
 .search:focus-within::after {
-  top: -125px;
+  top: -130px;
   opacity: 1;
 }
 
@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 575px) {
   .search:focus-within::after {
-    top: -120px;
+    top: -125px;
     left: 40%;
     padding: 10px;
   }
